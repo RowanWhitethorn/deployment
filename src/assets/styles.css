@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Outfit:wght@100;200;300;400&display=swap");
+* {
+  box-sizing: border-box;
+
+  font-family: "Outfit", sans-serif;
+  scroll-margin-top: 60px;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  scroll-behavior: smooth;
+  width: 100%;
+  --nav-load-time: 300ms;
+  --nav-link-load-time: 500ms;
+}
+/*Foto de Rick Jamison en Unsplash */
+.section-home {
+  background-image: url(/imgs/rick-jamison-9CJTrF-HnlU-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: static;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.section-vacation {
+  position: static;
+  float: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+  margin: 0px;
+  padding: 2%;
+  /*background: linear-gradient(
+    90deg,
+    rgba(252, 252, 226, 1) 0%,
+    rgba(240, 210, 133, 1) 50%,
+    rgba(252, 252, 226, 1) 100%
+  );*/
+}
+
+.section-services {
+  position: static;
+  float: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+  margin: 0px;
+  padding: 0px 2% 0px 2%;
+}
+.section-title {
+  margin-left: 1em;
+}
+
+.section-FAQ {
+  position: static;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  padding-top: 100px;
+}
+/*----------------------------------------------------------------------------------------------------------------
+---------------------Peloader Secction----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
+}
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.preloader-text {
+  font-size: xx-large;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------
+--------------------- Home------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+.header-slogan {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
+@media (max-width: 540px) {
+  .header-slogan {
+    font-size: 2rem;
+  }
+}
+
+/*social media icons*/
+
+a.social {
+  transition: transform 250ms;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+a.social:hover {
+  transform: translateY(-5px);
+  color: aquamarine;
+}
+
+a.facebook,
+a.instagram,
+a.tiktok {
+  color: white;
+}
+
+.component-div {
+  padding: 1em;
+  max-width: 300px;
+}
+.social-icons-div {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+.home-row {
+  margin: 0px;
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media (max-width: 770px) {
+  .home-row {
+    padding-bottom: 10px;
+    padding-top: 00px;
+  }
+  .info-container {
+    margin: 0px;
+  }
+  .info-div {
+    margin-top: 0px;
+  }
+}
+.home-column {
+  width: 100%;
+  max-width: 45%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .home-column {
+    max-width: 50;
+  }
+}
+
+@media (max-width: 890px) {
+  .home-column {
+    max-width: 100%;
+  }
+}
+
+.info-container {
+  align-items: center;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 70%;
+  height: 100%;
+  margin: 50px;
+  margin-top: 2em;
+}
+.info-div {
+  align-items: top;
+  border-radius: 1em;
+  width: fit-content;
+  max-width: 400px;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: rgba(9, 1, 41, 0.3);
+  margin-top: 3em;
+}
+.info-carousel {
+  max-width: 400px;
+}
+.info-nav {
+  height: fit-content;
+  width: fit-content;
+  padding: 0%;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid white 1px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info-menu {
+  margin: 0px;
+  display: block;
+}
+.info-button {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1em;
+  padding: 0.8em;
+  color: white;
+}
+.info-menu.active .info-button,
+.info-button:hover {
+  color: white;
+  transition: all 0.2s;
+  background-color: rgba(9, 1, 41, 0.3);
+}
+
+.card-info {
+  padding: 1em;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.card-body {
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-items {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.external-icon {
+  border: solid white 1px;
+  padding: 5px;
+  color: white;
+  border-radius: 20%;
+  font-size: medium;
+}
+.external-icon:hover {
+  color: aquamarine;
+}
+
+.custom-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  transition: all 0.2s ease;
+}
+.custom-link:hover {
+  color: aquamarine;
+  transform: translateY(-5px);
+}
+.contacts-span {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.carousel-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.carousel-body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------Vacations------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------*/
+.vacation-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.vacation-cards-column {
+  width: 100%;
+  max-width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .vacation-cards-column {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .vacation-cards-column {
+    max-width: 100%;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Add your existing styles Por si hay que poner mas cosas aqui que ya esten en los demas formatos de imagen*/
+
+.CardCotizacion {
+  background-color: #555;
+}
+
+/*****************************************this is a test**********************************/
+/* Card Styles */
+.cotizacion-card-container {
+  position: relative;
+  margin: 10px;
+}
+
+/* Overlay Styles */
+.cotizacion-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cotizacion-card-overlay {
+  width: 70%;
+  padding: 20px;
+  background-color: #ffffffee;
+  color: #000;
+  border-radius: 1em;
+  text-align: left;
+}
+.cotizacion-card-overlay:hover {
+  background-color: #fff;
+}
+.cotizacion-card-overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.cotizacion-card-overlay p {
+  margin: 0;
+}
+
+.cotization-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cotizacion-card-overlay p span {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333;
+}
+
+/*-------------------------footer shits----------------------------*/
+.anchor-footer {
+  justify-content: left;
+}
+.footer {
+  background-color: #1e6abb;
+  width: 100%;
+}
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.footer-text {
+  color: #ffffff;
+}
+.footer-first-text {
+  font-size: larger;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+.component-div {
+  border: 1px solid white;
+  padding: 1em;
+  max-width: 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.column {
+  max-width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cotization-button {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  background-color: #007bff;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  outline: 0 solid transparent;
+  padding: 10px 2em 10px 2em;
+  border: 0;
+  margin-right: 1.5em;
+  transition: background-color 0.3s ease;
+}
+.cotization-button:hover {
+  background-color: #0056b3;
+}
+

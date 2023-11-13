@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Vacaciones a Punta Cana",
+    "price": 499,
+    "imgUrl": "/imgs/imgHead.jpg",
+    "about": "Iniciando en $499.00 la noche, solo alojamiento",
+    "location": "Region, caribe, punta cana"        
+  },
+  {
+    "id": 2,
+    "name": "Vacations",
+    "price": 500,
+    "imgUrl": "/imgs/8ktest1.jpg",
+    "about": "insert random descriptive text here"    
+  },
+  {
+    "id": 3,
+    "name": "Vacations",
+    "price": 500,
+    "imgUrl": "/imgs/8ktest2.jpg",
+    "about": "insert random descriptive text here"    
+  },
+  {
+    "id": 4,
+    "name": "Vacations",
+    "price": 500,
+    "imgUrl": "/imgs/special.jpg",
+    "about": "insert random descriptive text here"   
+  }
+]
+
+

@@ -1,0 +1,46 @@
+{
+  "homepage": "https://RowanWhitethorn.github.io/Vuelos-Caribe-Web-Site",
+  "name": "vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "clsx": "^2.0.0",
+    "gh-pages": "^6.0.0",
+    "jquery": "^3.7.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-router-dom": "^6.8.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scroll": "^1.8.9",
+    "react-social-icons": "^5.15.0",
+    "react-spinners": "^0.13.8",
+    "regex": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-hash-link": "^2.4.6",
+    "@types/react-scroll": "^1.8.6",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.5",
+    "typings-for-css-modules-loader": "^0.1.1",
+    "vite": "^4.5.0"
+  }
+}

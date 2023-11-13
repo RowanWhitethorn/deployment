@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "name": "Boletos",
+      "imgUrl": "imgs/Servicios/Boletos.jpg",
+      "about": "Trabajamos con un grupo de aerolineas que nos proporciona boletos aereos desde hasta cualquier parte del mundo sujetos a capacidad y disponibilidad en dependencia de las fechas y el servicio que necesite, Los precios de los boletos son variables y una cotizacion puede cambiar en cuestion de horas por esto recomendamos comprar el boleto en el momento que haga su cotizacion,"
+            
+    },
+    {
+      "id": 2,
+      "name": "Inmigracion",
+      "imgUrl": "/imgs/Servicios/Inmigracion.jpg",
+      "about": "Permisos de trabajo; Por parol humanitario deben presentar: foto de pasaporte, foto de permiso de viaje, foto de la persona, I94, Residencia: Ciudadania: Asilo politico: "
+      
+    },
+    {
+      "id": 3,
+      "name": "Servicios Notariales y Paralegales",
+      "imgUrl": "/imgs/Servicios/Servicios Paralegales.jpg",
+      "about": "Notarizacion de documentos: Poderes de viaje. divorcios de mutuo acuerdo. Traducciones. Creacion de compañias."
+      
+    },
+    {
+      "id": 4,
+      "name": "Pasaportes",
+      "imgUrl": "/imgs/Servicios/Pasaportes.jpg",
+      "about": " Renovacion de pasaportes o pasaportes por primera vez, necesita traer una foto tipo pasaporte, el pasaporte anterior o una foto del mismo, en caso de que su pasaporte haya sido expedido antes de los ultimos 10 años necesita su certificacion de nacimiento original, y este pasaporte se considera un pasaporte por primera vez. El tiempo de espera para los pasaportes es variable y puede tardar de 3 a 4 meses, en el caso de los pasaportes por primera vez hasta 7 meses."     
+
+    },
+    {
+      "id": 5,
+      "name": "Parol Humanitario",
+      "imgUrl": "/imgs/Servicios/134a.jpg",
+      "about": " Puede llamar para pedir una cita, o ir personalmente a agendar una cita a cualquiera de las oficinas. Los documentos serian, para el patrocinador: Prueba de residencia o ciudadania, Carta de centro de trabajo o empleador, statements de los ultimos 3 meses o carta del banco, statement de 750 caracteres minimo explicando los motivos humanitarios por los cuales se pide el parol para esta persona. De los beneficiarios, una foto del pasaporte, direccion, numero de telefono, vinculo con el patrocinador, y estado civil."
+      
+    }
+  ]
+
+
+
