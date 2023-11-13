@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/deployment/imgs/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vuelos Caribe</title>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+
+    <script type="module" crossorigin src="/deployment/assets/index-9ae27f64.js"></script>
+    <link rel="stylesheet" href="/deployment/assets/index-c92ac5e8.css">
+  </head>
+  <body class="body">
+    <div id="root">
+      <h1>WTF is a Kilometeeer?!?!?</h1>
+    </div>
+    
+    
+    
+    
+  </body>
+</html>
